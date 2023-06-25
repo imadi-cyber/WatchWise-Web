@@ -1,0 +1,107 @@
+body {
+    background-color: #131720;
+}
+.nav1{
+    align-items: center;
+    height: 50px;
+    display: flex;
+    background-color: #2e2756;
+    column-count: 2;
+}
+
+
+  
+  /* Styles for the sections */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+  }
+  
+  /* Styles for the search form */
+  form {
+    margin-bottom: 10px;
+  }
+
+  #movie-input{
+    width: 250px;
+    margin-right: 5px;
+  }
+  
+  /* Styles for the movie results */
+  .movie {
+    display: inline-table;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    margin-left: 11px;
+    background-color: #131720;
+    width: 270px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .movie img {
+    width: 220px;
+    height: 350px;
+    border-radius: 5px;
+    opacity: 0.5;
+  }
+
+  .movie img:hover{
+    opacity: 1;
+  }
+  
+  /* Styles for the suggest form */
+  #suggest-form {
+    margin-bottom: 10px;
+    height: 60px;
+  }
+  
+  /* Styles for the recommend button */
+  #recommend-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #suggest-results{
+    background-color: #2e2756;
+    border-radius: 10px;
+  }
+
+  marquee{
+    width: 770px;
+    color: #b5c0fe;
+    margin-top: 10px;
+    font-style: italic;
+    margin-right: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .ytlink{
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .ytlink:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }

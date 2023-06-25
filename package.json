@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha2",
+    "node-fetch": "^3.3.1",
+    "postcss-cli": "^10.1.0"
+  }
+}
